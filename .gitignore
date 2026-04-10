@@ -1,0 +1,22 @@
+# Veri Dosyaları (Eğer DVC kullanıyorsan bunlar DVC ile takip edilmeli)
+*.csv
+*.parquet
+*.zip
+*.tar.gz
+data/
+
+# Python ve Sanal Ortamlar
+venv/
+env/
+.env
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE ve İşletim Sistemi
+.vscode/
+.idea/
+.DS_Store
